@@ -1,0 +1,65 @@
+#formdiv {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 75%;
+}
+
+.divTitle {
+  background-color: #fab700;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 30px 0px 30px 0px;
+}
+
+input[type="text"] {
+  padding: 5px 5px 5px 5px;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  margin: 10px 5px 0px 10px;
+}
+
+input[type="text"]:focus {
+  border: none;
+}
+
+.cashondelivery {
+  border: 1px dashed black;
+  margin: 30px 5px 0px 5px;
+}
+
+.cashondelivery img {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.inst {
+  padding-left: 130px;
+  color: grey;
+}
+
+.btn {
+  background-color: #fab700;
+  margin-top: 20px;
+  width: 20%;
+  margin-left: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+.btn:hover {
+  background-color: #f7cc56;
+}
+
+.divTitle img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-left: 60px;
+}

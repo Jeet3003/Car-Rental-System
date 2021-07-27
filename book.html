@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!--BOOTSTRAP LINK-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- CSS LINK-->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <form action="thankyou.html">
+      <div
+        class="container"
+        style="display: flex; flex-direction: column; align-items: center"
+      >
+        <div id="formdiv">
+          <div class="divTitle">BOOK YOUR CAR</div>
+
+          <input type="text" placeholder="Your Name" id="" />
+          <input type="text" placeholder="Pickup Location" id="" />
+          <input type="text" placeholder="Drop Off Location" id="" />
+
+          <span style="margin-left: 10px; margin-top: 10px"
+            >Upload your driving license: <input type="file" name="" id=""
+          /></span>
+
+          <div class="cashondelivery">
+            <img src="cash-on-delivery.png" />
+
+            <div class="inst">
+              Sorry, At this time only Cash on Delivery (COD) option is
+              available for payment. <br />You pay the renting amount when you
+              get the car at your location. <br /><br />
+              <input type="checkbox" required /> I agree to this Cash on
+              Delivery payment option.
+            </div>
+          </div>
+          <button class="btn btn-primary">Book Car</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
